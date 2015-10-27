@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ARTMapViewController.h
 //  artEverywhere-ios-0915
 //
 //  Created by Olivia Lim on 10/27/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ARTMapViewController : UIViewController
 
 @end
-
