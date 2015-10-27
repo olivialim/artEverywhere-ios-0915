@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBC1C0B51BE006E500931638 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC1C0B41BE006E500931638 /* main.m */; };
+		CBC1C0B81BE006E500931638 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC1C0B71BE006E500931638 /* AppDelegate.m */; };
+		CBC1C0BB1BE006E500931638 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC1C0BA1BE006E500931638 /* ViewController.m */; };
+		CBC1C0BE1BE006E500931638 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC1C0BC1BE006E500931638 /* Main.storyboard */; };
+		CBC1C0C01BE006E600931638 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBC1C0BF1BE006E600931638 /* Assets.xcassets */; };
+		CBC1C0C31BE006E600931638 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC1C0C11BE006E600931638 /* LaunchScreen.storyboard */; };
+		CBC1C0CE1BE006E600931638 /* artEverywhere_ios_0915Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC1C0CD1BE006E600931638 /* artEverywhere_ios_0915Tests.m */; };
+		CBC1C0D91BE006E600931638 /* artEverywhere_ios_0915UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC1C0D81BE006E600931638 /* artEverywhere_ios_0915UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBC1C0CA1BE006E600931638 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBC1C0A81BE006E500931638 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBC1C0AF1BE006E500931638;
+			remoteInfo = "artEverywhere-ios-0915";
+		};
+		CBC1C0D51BE006E600931638 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBC1C0A81BE006E500931638 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBC1C0AF1BE006E500931638;
+			remoteInfo = "artEverywhere-ios-0915";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBC1C0B01BE006E500931638 /* artEverywhere-ios-0915.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "artEverywhere-ios-0915.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBC1C0B41BE006E500931638 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBC1C0B61BE006E500931638 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBC1C0B71BE006E500931638 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CBC1C0B91BE006E500931638 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CBC1C0BA1BE006E500931638 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CBC1C0BD1BE006E500931638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBC1C0BF1BE006E600931638 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBC1C0C21BE006E600931638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBC1C0C41BE006E600931638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBC1C0C91BE006E600931638 /* artEverywhere-ios-0915Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "artEverywhere-ios-0915Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBC1C0CD1BE006E600931638 /* artEverywhere_ios_0915Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = artEverywhere_ios_0915Tests.m; sourceTree = "<group>"; };
+		CBC1C0CF1BE006E600931638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBC1C0D41BE006E600931638 /* artEverywhere-ios-0915UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "artEverywhere-ios-0915UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBC1C0D81BE006E600931638 /* artEverywhere_ios_0915UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = artEverywhere_ios_0915UITests.m; sourceTree = "<group>"; };
+		CBC1C0DA1BE006E600931638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBC1C0AD1BE006E500931638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBC1C0C61BE006E600931638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBC1C0D11BE006E600931638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBC1C0A71BE006E500931638 = {
+			isa = PBXGroup;
+			children = (
+				CBC1C0B21BE006E500931638 /* artEverywhere-ios-0915 */,
+				CBC1C0CC1BE006E600931638 /* artEverywhere-ios-0915Tests */,
+				CBC1C0D71BE006E600931638 /* artEverywhere-ios-0915UITests */,
+				CBC1C0B11BE006E500931638 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBC1C0B11BE006E500931638 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBC1C0B01BE006E500931638 /* artEverywhere-ios-0915.app */,
+				CBC1C0C91BE006E600931638 /* artEverywhere-ios-0915Tests.xctest */,
+				CBC1C0D41BE006E600931638 /* artEverywhere-ios-0915UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBC1C0B21BE006E500931638 /* artEverywhere-ios-0915 */ = {
+			isa = PBXGroup;
+			children = (
+				CBC1C0B61BE006E500931638 /* AppDelegate.h */,
+				CBC1C0B71BE006E500931638 /* AppDelegate.m */,
+				CBC1C0B91BE006E500931638 /* ViewController.h */,
+				CBC1C0BA1BE006E500931638 /* ViewController.m */,
+				CBC1C0BC1BE006E500931638 /* Main.storyboard */,
+				CBC1C0BF1BE006E600931638 /* Assets.xcassets */,
+				CBC1C0C11BE006E600931638 /* LaunchScreen.storyboard */,
+				CBC1C0C41BE006E600931638 /* Info.plist */,
+				CBC1C0B31BE006E500931638 /* Supporting Files */,
+			);
+			path = "artEverywhere-ios-0915";
+			sourceTree = "<group>";
+		};
+		CBC1C0B31BE006E500931638 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBC1C0B41BE006E500931638 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBC1C0CC1BE006E600931638 /* artEverywhere-ios-0915Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CBC1C0CD1BE006E600931638 /* artEverywhere_ios_0915Tests.m */,
+				CBC1C0CF1BE006E600931638 /* Info.plist */,
+			);
+			path = "artEverywhere-ios-0915Tests";
+			sourceTree = "<group>";
+		};
+		CBC1C0D71BE006E600931638 /* artEverywhere-ios-0915UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBC1C0D81BE006E600931638 /* artEverywhere_ios_0915UITests.m */,
+				CBC1C0DA1BE006E600931638 /* Info.plist */,
+			);
+			path = "artEverywhere-ios-0915UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBC1C0AF1BE006E500931638 /* artEverywhere-ios-0915 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBC1C0DD1BE006E600931638 /* Build configuration list for PBXNativeTarget "artEverywhere-ios-0915" */;
+			buildPhases = (
+				CBC1C0AC1BE006E500931638 /* Sources */,
+				CBC1C0AD1BE006E500931638 /* Frameworks */,
+				CBC1C0AE1BE006E500931638 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "artEverywhere-ios-0915";
+			productName = "artEverywhere-ios-0915";
+			productReference = CBC1C0B01BE006E500931638 /* artEverywhere-ios-0915.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBC1C0C81BE006E600931638 /* artEverywhere-ios-0915Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBC1C0E01BE006E600931638 /* Build configuration list for PBXNativeTarget "artEverywhere-ios-0915Tests" */;
+			buildPhases = (
+				CBC1C0C51BE006E600931638 /* Sources */,
+				CBC1C0C61BE006E600931638 /* Frameworks */,
+				CBC1C0C71BE006E600931638 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBC1C0CB1BE006E600931638 /* PBXTargetDependency */,
+			);
+			name = "artEverywhere-ios-0915Tests";
+			productName = "artEverywhere-ios-0915Tests";
+			productReference = CBC1C0C91BE006E600931638 /* artEverywhere-ios-0915Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBC1C0D31BE006E600931638 /* artEverywhere-ios-0915UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBC1C0E31BE006E600931638 /* Build configuration list for PBXNativeTarget "artEverywhere-ios-0915UITests" */;
+			buildPhases = (
+				CBC1C0D01BE006E600931638 /* Sources */,
+				CBC1C0D11BE006E600931638 /* Frameworks */,
+				CBC1C0D21BE006E600931638 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBC1C0D61BE006E600931638 /* PBXTargetDependency */,
+			);
+			name = "artEverywhere-ios-0915UITests";
+			productName = "artEverywhere-ios-0915UITests";
+			productReference = CBC1C0D41BE006E600931638 /* artEverywhere-ios-0915UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBC1C0A81BE006E500931638 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Olivia Lim";
+				TargetAttributes = {
+					CBC1C0AF1BE006E500931638 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					CBC1C0C81BE006E600931638 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = CBC1C0AF1BE006E500931638;
+					};
+					CBC1C0D31BE006E600931638 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = CBC1C0AF1BE006E500931638;
+					};
+				};
+			};
+			buildConfigurationList = CBC1C0AB1BE006E500931638 /* Build configuration list for PBXProject "artEverywhere-ios-0915" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBC1C0A71BE006E500931638;
+			productRefGroup = CBC1C0B11BE006E500931638 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBC1C0AF1BE006E500931638 /* artEverywhere-ios-0915 */,
+				CBC1C0C81BE006E600931638 /* artEverywhere-ios-0915Tests */,
+				CBC1C0D31BE006E600931638 /* artEverywhere-ios-0915UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBC1C0AE1BE006E500931638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBC1C0C31BE006E600931638 /* LaunchScreen.storyboard in Resources */,
+				CBC1C0C01BE006E600931638 /* Assets.xcassets in Resources */,
+				CBC1C0BE1BE006E500931638 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBC1C0C71BE006E600931638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBC1C0D21BE006E600931638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBC1C0AC1BE006E500931638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBC1C0BB1BE006E500931638 /* ViewController.m in Sources */,
+				CBC1C0B81BE006E500931638 /* AppDelegate.m in Sources */,
+				CBC1C0B51BE006E500931638 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBC1C0C51BE006E600931638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBC1C0CE1BE006E600931638 /* artEverywhere_ios_0915Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBC1C0D01BE006E600931638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBC1C0D91BE006E600931638 /* artEverywhere_ios_0915UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBC1C0CB1BE006E600931638 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBC1C0AF1BE006E500931638 /* artEverywhere-ios-0915 */;
+			targetProxy = CBC1C0CA1BE006E600931638 /* PBXContainerItemProxy */;
+		};
+		CBC1C0D61BE006E600931638 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBC1C0AF1BE006E500931638 /* artEverywhere-ios-0915 */;
+			targetProxy = CBC1C0D51BE006E600931638 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBC1C0BC1BE006E500931638 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBC1C0BD1BE006E500931638 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBC1C0C11BE006E600931638 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBC1C0C21BE006E600931638 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBC1C0DB1BE006E600931638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBC1C0DC1BE006E600931638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBC1C0DE1BE006E600931638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "artEverywhere-ios-0915/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ART.artEverywhere-ios-0915";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBC1C0DF1BE006E600931638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "artEverywhere-ios-0915/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ART.artEverywhere-ios-0915";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CBC1C0E11BE006E600931638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "artEverywhere-ios-0915Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ART.artEverywhere-ios-0915Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/artEverywhere-ios-0915.app/artEverywhere-ios-0915";
+			};
+			name = Debug;
+		};
+		CBC1C0E21BE006E600931638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "artEverywhere-ios-0915Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ART.artEverywhere-ios-0915Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/artEverywhere-ios-0915.app/artEverywhere-ios-0915";
+			};
+			name = Release;
+		};
+		CBC1C0E41BE006E600931638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "artEverywhere-ios-0915UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ART.artEverywhere-ios-0915UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "artEverywhere-ios-0915";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CBC1C0E51BE006E600931638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "artEverywhere-ios-0915UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ART.artEverywhere-ios-0915UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "artEverywhere-ios-0915";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBC1C0AB1BE006E500931638 /* Build configuration list for PBXProject "artEverywhere-ios-0915" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBC1C0DB1BE006E600931638 /* Debug */,
+				CBC1C0DC1BE006E600931638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBC1C0DD1BE006E600931638 /* Build configuration list for PBXNativeTarget "artEverywhere-ios-0915" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBC1C0DE1BE006E600931638 /* Debug */,
+				CBC1C0DF1BE006E600931638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBC1C0E01BE006E600931638 /* Build configuration list for PBXNativeTarget "artEverywhere-ios-0915Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBC1C0E11BE006E600931638 /* Debug */,
+				CBC1C0E21BE006E600931638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBC1C0E31BE006E600931638 /* Build configuration list for PBXNativeTarget "artEverywhere-ios-0915UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBC1C0E41BE006E600931638 /* Debug */,
+				CBC1C0E51BE006E600931638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBC1C0A81BE006E500931638 /* Project object */;
+}
