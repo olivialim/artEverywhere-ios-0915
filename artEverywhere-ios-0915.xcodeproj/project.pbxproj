@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB106CD41BE1676E00FDBFCF /* ARTInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB106CD31BE1676E00FDBFCF /* ARTInfoViewController.m */; };
 		CBC1C0B51BE006E500931638 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC1C0B41BE006E500931638 /* main.m */; };
 		CBC1C0B81BE006E500931638 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC1C0B71BE006E500931638 /* AppDelegate.m */; };
 		CBC1C0BE1BE006E500931638 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC1C0BC1BE006E500931638 /* Main.storyboard */; };
@@ -15,9 +16,16 @@
 		CBC1C0CE1BE006E600931638 /* artEverywhere_ios_0915Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC1C0CD1BE006E600931638 /* artEverywhere_ios_0915Tests.m */; };
 		CBC1C0D91BE006E600931638 /* artEverywhere_ios_0915UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC1C0D81BE006E600931638 /* artEverywhere_ios_0915UITests.m */; };
 		CBC1C0E81BE0086100931638 /* ARTLocationListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC1C0E71BE0086100931638 /* ARTLocationListTableViewController.m */; };
-		CBC1C0FA1BE00C4000931638 /* ARTInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC1C0F91BE00C4000931638 /* ARTInfoViewController.m */; };
-		CBC1C0FD1BE00C5100931638 /* ARTMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC1C0FC1BE00C5100931638 /* ARTMapViewController.m */; };
 		CBC1C0FF1BE00CDF00931638 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBC1C0FE1BE00CDF00931638 /* MapKit.framework */; };
+		CBEFB60D1BE27B0C009167FA /* ARTInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEFB60C1BE27B0C009167FA /* ARTInfo.m */; };
+		CBEFB6101BE27B9F009167FA /* ARTInfoDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEFB60F1BE27B9F009167FA /* ARTInfoDataStore.m */; };
+		CBEFB6171BE3BBDE009167FA /* Florsn41.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBEFB6151BE3BBDE009167FA /* Florsn41.ttf */; };
+		CBEFB6181BE3BBDE009167FA /* Florsn42.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBEFB6161BE3BBDE009167FA /* Florsn42.ttf */; };
+		CBEFB61A1BE3CDA1009167FA /* Savu.otf in Resources */ = {isa = PBXBuildFile; fileRef = CBEFB6191BE3CDA1009167FA /* Savu.otf */; };
+		CBEFB61D1BE3CFD1009167FA /* PrintBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CBEFB61B1BE3CFD1009167FA /* PrintBold.otf */; };
+		CBEFB61E1BE3CFD1009167FA /* PrintClearly.otf in Resources */ = {isa = PBXBuildFile; fileRef = CBEFB61C1BE3CFD1009167FA /* PrintClearly.otf */; };
+		CBEFB6211BE3D093009167FA /* BebasNeue Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CBEFB61F1BE3D093009167FA /* BebasNeue Bold.otf */; };
+		CBEFB6221BE3D093009167FA /* BebasNeue Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CBEFB6201BE3D093009167FA /* BebasNeue Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB106CD21BE1676E00FDBFCF /* ARTInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARTInfoViewController.h; sourceTree = "<group>"; };
+		CB106CD31BE1676E00FDBFCF /* ARTInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARTInfoViewController.m; sourceTree = "<group>"; };
 		CBC1C0B01BE006E500931638 /* artEverywhere-ios-0915.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "artEverywhere-ios-0915.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBC1C0B41BE006E500931638 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CBC1C0B61BE006E500931638 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,11 +64,18 @@
 		CBC1C0DA1BE006E600931638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBC1C0E61BE0086100931638 /* ARTLocationListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARTLocationListTableViewController.h; sourceTree = "<group>"; };
 		CBC1C0E71BE0086100931638 /* ARTLocationListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARTLocationListTableViewController.m; sourceTree = "<group>"; };
-		CBC1C0F81BE00C4000931638 /* ARTInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARTInfoViewController.h; sourceTree = "<group>"; };
-		CBC1C0F91BE00C4000931638 /* ARTInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARTInfoViewController.m; sourceTree = "<group>"; };
-		CBC1C0FB1BE00C5100931638 /* ARTMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARTMapViewController.h; sourceTree = "<group>"; };
-		CBC1C0FC1BE00C5100931638 /* ARTMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARTMapViewController.m; sourceTree = "<group>"; };
 		CBC1C0FE1BE00CDF00931638 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CBEFB60B1BE27B0C009167FA /* ARTInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARTInfo.h; sourceTree = "<group>"; };
+		CBEFB60C1BE27B0C009167FA /* ARTInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARTInfo.m; sourceTree = "<group>"; };
+		CBEFB60E1BE27B9F009167FA /* ARTInfoDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARTInfoDataStore.h; sourceTree = "<group>"; };
+		CBEFB60F1BE27B9F009167FA /* ARTInfoDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARTInfoDataStore.m; sourceTree = "<group>"; };
+		CBEFB6151BE3BBDE009167FA /* Florsn41.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Florsn41.ttf; sourceTree = "<group>"; };
+		CBEFB6161BE3BBDE009167FA /* Florsn42.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Florsn42.ttf; sourceTree = "<group>"; };
+		CBEFB6191BE3CDA1009167FA /* Savu.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Savu.otf; sourceTree = "<group>"; };
+		CBEFB61B1BE3CFD1009167FA /* PrintBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = PrintBold.otf; path = "artEverywhere-ios-0915/PrintBold.otf"; sourceTree = "<group>"; };
+		CBEFB61C1BE3CFD1009167FA /* PrintClearly.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = PrintClearly.otf; path = "artEverywhere-ios-0915/PrintClearly.otf"; sourceTree = "<group>"; };
+		CBEFB61F1BE3D093009167FA /* BebasNeue Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue Bold.otf"; sourceTree = "<group>"; };
+		CBEFB6201BE3D093009167FA /* BebasNeue Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue Regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +107,13 @@
 		CBC1C0A71BE006E500931638 = {
 			isa = PBXGroup;
 			children = (
+				CBEFB61F1BE3D093009167FA /* BebasNeue Bold.otf */,
+				CBEFB6201BE3D093009167FA /* BebasNeue Regular.otf */,
+				CBEFB6191BE3CDA1009167FA /* Savu.otf */,
+				CBEFB6151BE3BBDE009167FA /* Florsn41.ttf */,
+				CBEFB6161BE3BBDE009167FA /* Florsn42.ttf */,
+				CBEFB61B1BE3CFD1009167FA /* PrintBold.otf */,
+				CBEFB61C1BE3CFD1009167FA /* PrintClearly.otf */,
 				CBC1C0FE1BE00CDF00931638 /* MapKit.framework */,
 				CBC1C0B21BE006E500931638 /* artEverywhere-ios-0915 */,
 				CBC1C0CC1BE006E600931638 /* artEverywhere-ios-0915Tests */,
@@ -113,13 +137,15 @@
 			children = (
 				CBC1C0B61BE006E500931638 /* AppDelegate.h */,
 				CBC1C0B71BE006E500931638 /* AppDelegate.m */,
+				CBEFB60B1BE27B0C009167FA /* ARTInfo.h */,
+				CBEFB60C1BE27B0C009167FA /* ARTInfo.m */,
+				CBEFB60E1BE27B9F009167FA /* ARTInfoDataStore.h */,
+				CBEFB60F1BE27B9F009167FA /* ARTInfoDataStore.m */,
 				CBC1C0BC1BE006E500931638 /* Main.storyboard */,
 				CBC1C0E61BE0086100931638 /* ARTLocationListTableViewController.h */,
 				CBC1C0E71BE0086100931638 /* ARTLocationListTableViewController.m */,
-				CBC1C0F81BE00C4000931638 /* ARTInfoViewController.h */,
-				CBC1C0F91BE00C4000931638 /* ARTInfoViewController.m */,
-				CBC1C0FB1BE00C5100931638 /* ARTMapViewController.h */,
-				CBC1C0FC1BE00C5100931638 /* ARTMapViewController.m */,
+				CB106CD21BE1676E00FDBFCF /* ARTInfoViewController.h */,
+				CB106CD31BE1676E00FDBFCF /* ARTInfoViewController.m */,
 				CBC1C0B31BE006E500931638 /* Supporting Files */,
 				CBC1C0BF1BE006E600931638 /* Assets.xcassets */,
 				CBC1C0C11BE006E600931638 /* LaunchScreen.storyboard */,
@@ -221,6 +247,7 @@
 				TargetAttributes = {
 					CBC1C0AF1BE006E500931638 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 652FKRA3R9;
 						SystemCapabilities = {
 							com.apple.Maps.iOS = {
 								enabled = 1;
@@ -262,8 +289,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBEFB61E1BE3CFD1009167FA /* PrintClearly.otf in Resources */,
 				CBC1C0C31BE006E600931638 /* LaunchScreen.storyboard in Resources */,
+				CBEFB6171BE3BBDE009167FA /* Florsn41.ttf in Resources */,
+				CBEFB61D1BE3CFD1009167FA /* PrintBold.otf in Resources */,
+				CBEFB61A1BE3CDA1009167FA /* Savu.otf in Resources */,
+				CBEFB6181BE3BBDE009167FA /* Florsn42.ttf in Resources */,
+				CBEFB6221BE3D093009167FA /* BebasNeue Regular.otf in Resources */,
 				CBC1C0C01BE006E600931638 /* Assets.xcassets in Resources */,
+				CBEFB6211BE3D093009167FA /* BebasNeue Bold.otf in Resources */,
 				CBC1C0BE1BE006E500931638 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,11 +323,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBC1C0FA1BE00C4000931638 /* ARTInfoViewController.m in Sources */,
-				CBC1C0FD1BE00C5100931638 /* ARTMapViewController.m in Sources */,
+				CBEFB60D1BE27B0C009167FA /* ARTInfo.m in Sources */,
+				CB106CD41BE1676E00FDBFCF /* ARTInfoViewController.m in Sources */,
 				CBC1C0B81BE006E500931638 /* AppDelegate.m in Sources */,
 				CBC1C0E81BE0086100931638 /* ARTLocationListTableViewController.m in Sources */,
 				CBC1C0B51BE006E500931638 /* main.m in Sources */,
+				CBEFB6101BE27B9F009167FA /* ARTInfoDataStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,10 +469,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "artEverywhere-ios-0915/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ART.artEverywhere-ios-0915";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -445,10 +483,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "artEverywhere-ios-0915/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ART.artEverywhere-ios-0915";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -519,6 +560,7 @@
 				CBC1C0DF1BE006E600931638 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBC1C0E01BE006E600931638 /* Build configuration list for PBXNativeTarget "artEverywhere-ios-0915Tests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +569,7 @@
 				CBC1C0E21BE006E600931638 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBC1C0E31BE006E600931638 /* Build configuration list for PBXNativeTarget "artEverywhere-ios-0915UITests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +578,7 @@
 				CBC1C0E51BE006E600931638 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

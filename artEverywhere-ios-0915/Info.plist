@@ -36,6 +36,16 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Florsn41.ttf</string>
+		<string>Florsn42.ttf</string>
+		<string>Savu.otf</string>
+		<string>PrintBold.otf</string>
+		<string>PrintClearly.otf</string>
+		<string>BebasNeue Bold.otf</string>
+		<string>BebasNeue Regular.otf</string>
+	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

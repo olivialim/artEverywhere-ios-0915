@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ARTInfoDataStore.h"
 
 @interface ARTLocationListTableViewController : UITableViewController
+
+@property (strong, nonatomic) ARTInfoDataStore *store;
 
 @end
