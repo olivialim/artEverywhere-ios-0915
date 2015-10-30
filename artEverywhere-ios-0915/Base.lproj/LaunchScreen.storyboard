@@ -14,24 +14,16 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="1080" height="1920"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="artEverywhereLogo" translatesAutoresizingMaskIntoConstraints="NO" id="i4o-WI-J4P">
-                                <rect key="frame" x="0.0" y="0.0" width="1080" height="1920"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="artEverywhereLogo" translatesAutoresizingMaskIntoConstraints="NO" id="i4o-WI-J4P">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="i4o-WI-J4P" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="5Y5-mn-Eg4"/>
-                            <constraint firstItem="i4o-WI-J4P" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="Mqd-bQ-zRI"/>
-                            <constraint firstItem="i4o-WI-J4P" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" id="rYg-dy-V8x"/>
-                            <constraint firstItem="i4o-WI-J4P" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="z51-3f-6iq"/>
-                        </constraints>
                     </view>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="1080" height="1920"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

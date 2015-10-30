@@ -8,9 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import "ARTInfoDataStore.h"
+#import <CoreLocation/CoreLocation.h>
+#import <MapKit/MapKit.h>
 
 @interface ARTLocationListTableViewController : UITableViewController
 
+
+@property (nonatomic, strong) CLLocationManager *locationManager;
+@property (weak, nonatomic) IBOutlet MKMapView *mapView;
 @property (strong, nonatomic) ARTInfoDataStore *store;
 
 @end

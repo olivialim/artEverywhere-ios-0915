@@ -26,25 +26,10 @@
     [super viewDidLoad];
     self.artDescription.editable = NO;
     
-
-//    self.superContentView.frame.size.height;
-    
-    
-    
-    
-//    UIImage *anImage = [UIImage imageNamed:@"RossHoA_2824.jpg"];
-//    UIImage *anotherImage = [UIImage imageNamed:@"chargingBull"];
-//    UIImage *yetAnotherImage;
-    
-    
-//    NSArray *images = @[anImage, anotherImage, yetAnotherImage];
-    
     NSString *title = self.artwork.title;
     NSString *yearCreated = self.artwork.yearCreated;
     
     self.titleYearLabel.text = [NSString stringWithFormat:@"%@, %@", title, yearCreated];
-    
-    
     
     self.artDescription.text = self.artwork.artDescription;
     CGRect rect = self.artDescription.frame;

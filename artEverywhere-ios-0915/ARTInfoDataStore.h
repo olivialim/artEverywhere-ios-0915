@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <MapKit/MapKit.h>
+
 #import "ARTInfo.h"
+
 
 @interface ARTInfoDataStore : NSObject
 
@@ -15,5 +18,7 @@
 @property (strong, nonatomic) ARTInfo *artworkDetail;
 
 + (instancetype)sharedArtInfoDataStore;
+- (void)setupDistanceFromUserPropertyForArtwork:(ARTInfo *)art
+                                   withLocation:(CLLocation *)location;
 
 @end

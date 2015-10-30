@@ -17,15 +17,21 @@
 @property (strong, nonatomic) NSString *artDescription;
 @property (strong, nonatomic) UIImage *image1;
 @property (strong, nonatomic) UIImage *image2;
-
+@property (nonatomic) CGFloat latitude;
+@property (nonatomic) CGFloat longitude;
+@property (strong, nonatomic) NSString *distanceFromUser;
 
 -(instancetype)initWithTitle:(NSString *)title
                       artist:(NSString *)artist
                  yearCreated:(NSString *)yearCreated
               artDescription:(NSString *)artDescription
                       image1:(UIImage *)image1
-                      image2:(UIImage *)image2;
+                      image2:(UIImage *)image2
+                    latitude:(CGFloat)latitude
+                   longitude:(CGFloat)longitude;
 
+
+- (NSString *)description;
 
 
 
