@@ -15,7 +15,7 @@
         </mutableArray>
     </customFonts>
     <scenes>
-        <!--Art Near You-->
+        <!--Location List Table View Controller-->
         <scene sceneID="GPE-6F-fQI">
             <objects>
                 <tableViewController id="9OY-Nv-nBs" customClass="ARTLocationListTableViewController" sceneMemberID="viewController">
@@ -62,7 +62,7 @@
                             <outlet property="delegate" destination="9OY-Nv-nBs" id="WhR-u1-hN0"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Art Near You" id="G86-Sh-ApI"/>
+                    <navigationItem key="navigationItem" id="G86-Sh-ApI"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <outlet property="mapView" destination="kEr-pC-VVD" id="GMq-ZN-1e6"/>

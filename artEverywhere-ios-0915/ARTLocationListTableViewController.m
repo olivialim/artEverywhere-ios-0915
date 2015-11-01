@@ -45,7 +45,7 @@
     [super viewDidLoad];
     
     self.store = [ARTInfoDataStore sharedArtInfoDataStore];
-
+    self.navigationController.navigationBar.topItem.title = @"";
     
     [self.mapView setShowsUserLocation:YES];
     [self.mapView setShowsPointsOfInterest:NO];
@@ -132,12 +132,7 @@
     
     //see what this does to cells if you want.
     [self.tableView reloadData];
-    
 
-    
-    
-//    
- 
 //
 //    CLLocationCoordinate2D chargingBullCoord;
 //    chargingBullCoord.latitude = CHARGING_BULL_LAT;
@@ -147,8 +142,6 @@
 //    CGFloat chargingBullDistanceConverted = chargingBullMeters / MILE_METERS;
 //    NSString *chargingBullDisplayDistance = [NSString stringWithFormat:@"%.2f",chargingBullDistanceConverted];
 //    NSLog(@"Charging Bull is %@ miles away",chargingBullDisplayDistance);
-//    
-//    
 //    
 //    CLLocationCoordinate2D secondSelfCoord;
 //    secondSelfCoord.latitude = SECOND_SELF_LAT;
@@ -188,9 +181,6 @@
     
     
 }
-
-
-
 
 -(MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(nonnull id<MKAnnotation>)annotation
 {

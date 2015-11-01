@@ -46,28 +46,6 @@
                                                  longitude:-74.01344];
     
     
-//    chargingBull.distanceFromUser = @"";
-//    
-//    
-//    [ARTInfoDataStore retrieveDistanceFromUserWithBlock:^ (CLLocation *location) {
-//        
-//    
-//        chargingBull.distanceFromUser = distance;
-//        
-//        
-//        
-//    }];
-//    
-//    
-//    
-//    [someObject someMethodThatTakesABlock:^returnType (parameters) {...}];
-    
-    
-    
-    
-    
-    
-    
 
     ARTInfo *redCube = [[ARTInfo alloc] initWithTitle:@"Red Cube"
                                                     artist:@"Isamu Noguchi"
