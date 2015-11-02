@@ -1,15 +1,15 @@
 //
-//  MapOverlayView.m
+//  ARTMapOverlayView.m
 //  art-everywhere-maps
 //
-//  Created by Joel Bell on 10/30/15.
-//  Copyright © 2015 Joel Bell. All rights reserved.
+//  Created by Olivia Lim and Joel Bell on 10/29/15.
+//  Copyright © 2015 Olivia Lim. All rights reserved.
 //
 
-#import "MapOverlayView.h"
+#import "ARTMapOverlayView.h"
 
 
-@implementation MapOverlayView
+@implementation ARTMapOverlayView
 
 - (instancetype)initWithOverlay:(id <MKOverlay>)overlay {
     self = [super initWithOverlay:overlay];
