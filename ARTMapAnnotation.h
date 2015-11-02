@@ -1,15 +1,15 @@
 //
-//  MyCustomAnnotation.h
+//  ARTMapAnnotation.h
 //  art-everywhere-maps
 //
-//  Created by Joel Bell on 10/29/15.
-//  Copyright © 2015 Joel Bell. All rights reserved.
+//  Created by Olivia Lim and Joel Bell on 10/29/15.
+//  Copyright © 2015 Olivia Lim. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 #import <MapKit/MapKit.h>
 
-@interface MyCustomAnnotation : NSObject <MKAnnotation>
+@interface ARTMapAnnotation : NSObject <MKAnnotation>
 
 @property (nonatomic,readonly) CLLocationCoordinate2D coordinate;
 @property (nonatomic,copy) NSString *title;

@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  artEverywhere-ios-0915
 //
-//  Created by Olivia Lim on 10/27/15.
+//  Created by Olivia Lim and Joel Bell on 10/27/15.
 //  Copyright © 2015 Olivia Lim. All rights reserved.
 //
 
@@ -17,6 +17,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+
+    UIImage *image = [[UIImage imageNamed:@"banner1"]resizableImageWithCapInsets:UIEdgeInsetsMake(0, 0, 0, 0) resizingMode:UIImageResizingModeStretch];
+    
+    [[UINavigationBar appearance] setBackgroundImage:image forBarMetrics:UIBarMetricsDefault];
+    
     return YES;
 }
 
@@ -43,3 +49,8 @@
 }
 
 @end
+
+/*
+ 
+ [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+*/

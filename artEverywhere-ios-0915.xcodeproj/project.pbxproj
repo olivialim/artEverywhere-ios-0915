@@ -7,20 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D1837E81BE574CC007F7A77 /* NSMutableArray+Enumeration.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1837E71BE574CC007F7A77 /* NSMutableArray+Enumeration.m */; };
+		5D1837EA1BE5843F007F7A77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D1837E91BE5843F007F7A77 /* Assets.xcassets */; };
 		CB106CD41BE1676E00FDBFCF /* ARTInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB106CD31BE1676E00FDBFCF /* ARTInfoViewController.m */; };
 		CBC1C0B51BE006E500931638 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC1C0B41BE006E500931638 /* main.m */; };
 		CBC1C0B81BE006E500931638 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC1C0B71BE006E500931638 /* AppDelegate.m */; };
 		CBC1C0BE1BE006E500931638 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC1C0BC1BE006E500931638 /* Main.storyboard */; };
-		CBC1C0C01BE006E600931638 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBC1C0BF1BE006E600931638 /* Assets.xcassets */; };
 		CBC1C0C31BE006E600931638 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC1C0C11BE006E600931638 /* LaunchScreen.storyboard */; };
 		CBC1C0CE1BE006E600931638 /* artEverywhere_ios_0915Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC1C0CD1BE006E600931638 /* artEverywhere_ios_0915Tests.m */; };
 		CBC1C0D91BE006E600931638 /* artEverywhere_ios_0915UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC1C0D81BE006E600931638 /* artEverywhere_ios_0915UITests.m */; };
 		CBC1C0E81BE0086100931638 /* ARTLocationListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC1C0E71BE0086100931638 /* ARTLocationListTableViewController.m */; };
 		CBC1C0FF1BE00CDF00931638 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBC1C0FE1BE00CDF00931638 /* MapKit.framework */; };
 		CBD0F8261BE3EC0E003A4B95 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD0F8251BE3EC0E003A4B95 /* CoreLocation.framework */; };
-		CBD0F8361BE3EC7E003A4B95 /* MapOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD0F8311BE3EC7E003A4B95 /* MapOverlay.m */; };
-		CBD0F8371BE3EC7E003A4B95 /* MapOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD0F8331BE3EC7E003A4B95 /* MapOverlayView.m */; };
-		CBD0F8381BE3EC7E003A4B95 /* MyCustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD0F8351BE3EC7E003A4B95 /* MyCustomAnnotation.m */; };
+		CBD0F8361BE3EC7E003A4B95 /* ARTMapOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD0F8311BE3EC7E003A4B95 /* ARTMapOverlay.m */; };
+		CBD0F8371BE3EC7E003A4B95 /* ARTMapOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD0F8331BE3EC7E003A4B95 /* ARTMapOverlayView.m */; };
+		CBD0F8381BE3EC7E003A4B95 /* ARTMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD0F8351BE3EC7E003A4B95 /* ARTMapAnnotation.m */; };
 		CBEFB60D1BE27B0C009167FA /* ARTInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEFB60C1BE27B0C009167FA /* ARTInfo.m */; };
 		CBEFB6101BE27B9F009167FA /* ARTInfoDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEFB60F1BE27B9F009167FA /* ARTInfoDataStore.m */; };
 		CBEFB6171BE3BBDE009167FA /* Florsn41.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBEFB6151BE3BBDE009167FA /* Florsn41.ttf */; };
@@ -50,6 +51,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D1837E61BE574CC007F7A77 /* NSMutableArray+Enumeration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Enumeration.h"; sourceTree = "<group>"; };
+		5D1837E71BE574CC007F7A77 /* NSMutableArray+Enumeration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Enumeration.m"; sourceTree = "<group>"; };
+		5D1837E91BE5843F007F7A77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB106CD21BE1676E00FDBFCF /* ARTInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARTInfoViewController.h; sourceTree = "<group>"; };
 		CB106CD31BE1676E00FDBFCF /* ARTInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARTInfoViewController.m; sourceTree = "<group>"; };
 		CBC1C0B01BE006E500931638 /* artEverywhere-ios-0915.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "artEverywhere-ios-0915.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,7 +61,6 @@
 		CBC1C0B61BE006E500931638 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CBC1C0B71BE006E500931638 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CBC1C0BD1BE006E500931638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CBC1C0BF1BE006E600931638 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBC1C0C21BE006E600931638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBC1C0C41BE006E600931638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBC1C0C91BE006E600931638 /* artEverywhere-ios-0915Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "artEverywhere-ios-0915Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,12 +73,12 @@
 		CBC1C0E71BE0086100931638 /* ARTLocationListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARTLocationListTableViewController.m; sourceTree = "<group>"; };
 		CBC1C0FE1BE00CDF00931638 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		CBD0F8251BE3EC0E003A4B95 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		CBD0F8301BE3EC7E003A4B95 /* MapOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapOverlay.h; path = ../MapOverlay.h; sourceTree = "<group>"; };
-		CBD0F8311BE3EC7E003A4B95 /* MapOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapOverlay.m; path = ../MapOverlay.m; sourceTree = "<group>"; };
-		CBD0F8321BE3EC7E003A4B95 /* MapOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapOverlayView.h; path = ../MapOverlayView.h; sourceTree = "<group>"; };
-		CBD0F8331BE3EC7E003A4B95 /* MapOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapOverlayView.m; path = ../MapOverlayView.m; sourceTree = "<group>"; };
-		CBD0F8341BE3EC7E003A4B95 /* MyCustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyCustomAnnotation.h; path = ../MyCustomAnnotation.h; sourceTree = "<group>"; };
-		CBD0F8351BE3EC7E003A4B95 /* MyCustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyCustomAnnotation.m; path = ../MyCustomAnnotation.m; sourceTree = "<group>"; };
+		CBD0F8301BE3EC7E003A4B95 /* ARTMapOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARTMapOverlay.h; path = ../ARTMapOverlay.h; sourceTree = "<group>"; };
+		CBD0F8311BE3EC7E003A4B95 /* ARTMapOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARTMapOverlay.m; path = ../ARTMapOverlay.m; sourceTree = "<group>"; };
+		CBD0F8321BE3EC7E003A4B95 /* ARTMapOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARTMapOverlayView.h; path = ../ARTMapOverlayView.h; sourceTree = "<group>"; };
+		CBD0F8331BE3EC7E003A4B95 /* ARTMapOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARTMapOverlayView.m; path = ../ARTMapOverlayView.m; sourceTree = "<group>"; };
+		CBD0F8341BE3EC7E003A4B95 /* ARTMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARTMapAnnotation.h; path = ../ARTMapAnnotation.h; sourceTree = "<group>"; };
+		CBD0F8351BE3EC7E003A4B95 /* ARTMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARTMapAnnotation.m; path = ../ARTMapAnnotation.m; sourceTree = "<group>"; };
 		CBEFB60B1BE27B0C009167FA /* ARTInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARTInfo.h; sourceTree = "<group>"; };
 		CBEFB60C1BE27B0C009167FA /* ARTInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARTInfo.m; sourceTree = "<group>"; };
 		CBEFB60E1BE27B9F009167FA /* ARTInfoDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARTInfoDataStore.h; sourceTree = "<group>"; };
@@ -119,13 +122,13 @@
 		CBC1C0A71BE006E500931638 = {
 			isa = PBXGroup;
 			children = (
-				CBD0F8251BE3EC0E003A4B95 /* CoreLocation.framework */,
-				CBC1C0FE1BE00CDF00931638 /* MapKit.framework */,
 				CBC1C0B21BE006E500931638 /* artEverywhere-ios-0915 */,
 				CBC1C0CC1BE006E600931638 /* artEverywhere-ios-0915Tests */,
 				CBC1C0D71BE006E600931638 /* artEverywhere-ios-0915UITests */,
 				CBC1C0B11BE006E500931638 /* Products */,
 				CBEFB6231BE3E03C009167FA /* Fonts */,
+				CBD0F8251BE3EC0E003A4B95 /* CoreLocation.framework */,
+				CBC1C0FE1BE00CDF00931638 /* MapKit.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,23 +147,25 @@
 			children = (
 				CBC1C0B61BE006E500931638 /* AppDelegate.h */,
 				CBC1C0B71BE006E500931638 /* AppDelegate.m */,
-				CBD0F8341BE3EC7E003A4B95 /* MyCustomAnnotation.h */,
-				CBD0F8351BE3EC7E003A4B95 /* MyCustomAnnotation.m */,
-				CBD0F8301BE3EC7E003A4B95 /* MapOverlay.h */,
-				CBD0F8311BE3EC7E003A4B95 /* MapOverlay.m */,
-				CBD0F8321BE3EC7E003A4B95 /* MapOverlayView.h */,
-				CBD0F8331BE3EC7E003A4B95 /* MapOverlayView.m */,
 				CBEFB60B1BE27B0C009167FA /* ARTInfo.h */,
 				CBEFB60C1BE27B0C009167FA /* ARTInfo.m */,
 				CBEFB60E1BE27B9F009167FA /* ARTInfoDataStore.h */,
 				CBEFB60F1BE27B9F009167FA /* ARTInfoDataStore.m */,
-				CBC1C0BC1BE006E500931638 /* Main.storyboard */,
 				CBC1C0E61BE0086100931638 /* ARTLocationListTableViewController.h */,
 				CBC1C0E71BE0086100931638 /* ARTLocationListTableViewController.m */,
 				CB106CD21BE1676E00FDBFCF /* ARTInfoViewController.h */,
 				CB106CD31BE1676E00FDBFCF /* ARTInfoViewController.m */,
+				CBD0F8341BE3EC7E003A4B95 /* ARTMapAnnotation.h */,
+				CBD0F8351BE3EC7E003A4B95 /* ARTMapAnnotation.m */,
+				CBD0F8301BE3EC7E003A4B95 /* ARTMapOverlay.h */,
+				CBD0F8311BE3EC7E003A4B95 /* ARTMapOverlay.m */,
+				CBD0F8321BE3EC7E003A4B95 /* ARTMapOverlayView.h */,
+				CBD0F8331BE3EC7E003A4B95 /* ARTMapOverlayView.m */,
+				5D1837E61BE574CC007F7A77 /* NSMutableArray+Enumeration.h */,
+				5D1837E71BE574CC007F7A77 /* NSMutableArray+Enumeration.m */,
+				CBC1C0BC1BE006E500931638 /* Main.storyboard */,
+				5D1837E91BE5843F007F7A77 /* Assets.xcassets */,
 				CBC1C0B31BE006E500931638 /* Supporting Files */,
-				CBC1C0BF1BE006E600931638 /* Assets.xcassets */,
 				CBC1C0C11BE006E600931638 /* LaunchScreen.storyboard */,
 				CBC1C0C41BE006E600931638 /* Info.plist */,
 			);
@@ -274,7 +279,7 @@
 				TargetAttributes = {
 					CBC1C0AF1BE006E500931638 = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = 652FKRA3R9;
+						DevelopmentTeam = KHZ7KMZGFR;
 						SystemCapabilities = {
 							com.apple.Maps.iOS = {
 								enabled = 1;
@@ -320,10 +325,10 @@
 				CBC1C0C31BE006E600931638 /* LaunchScreen.storyboard in Resources */,
 				CBEFB6171BE3BBDE009167FA /* Florsn41.ttf in Resources */,
 				CBEFB61D1BE3CFD1009167FA /* PrintBold.otf in Resources */,
+				5D1837EA1BE5843F007F7A77 /* Assets.xcassets in Resources */,
 				CBEFB61A1BE3CDA1009167FA /* Savu.otf in Resources */,
 				CBEFB6181BE3BBDE009167FA /* Florsn42.ttf in Resources */,
 				CBEFB6221BE3D093009167FA /* BebasNeue Regular.otf in Resources */,
-				CBC1C0C01BE006E600931638 /* Assets.xcassets in Resources */,
 				CBEFB6211BE3D093009167FA /* BebasNeue Bold.otf in Resources */,
 				CBC1C0BE1BE006E500931638 /* Main.storyboard in Resources */,
 			);
@@ -355,10 +360,11 @@
 				CBC1C0B81BE006E500931638 /* AppDelegate.m in Sources */,
 				CBC1C0E81BE0086100931638 /* ARTLocationListTableViewController.m in Sources */,
 				CBC1C0B51BE006E500931638 /* main.m in Sources */,
-				CBD0F8381BE3EC7E003A4B95 /* MyCustomAnnotation.m in Sources */,
+				CBD0F8381BE3EC7E003A4B95 /* ARTMapAnnotation.m in Sources */,
 				CBEFB6101BE27B9F009167FA /* ARTInfoDataStore.m in Sources */,
-				CBD0F8371BE3EC7E003A4B95 /* MapOverlayView.m in Sources */,
-				CBD0F8361BE3EC7E003A4B95 /* MapOverlay.m in Sources */,
+				CBD0F8371BE3EC7E003A4B95 /* ARTMapOverlayView.m in Sources */,
+				CBD0F8361BE3EC7E003A4B95 /* ARTMapOverlay.m in Sources */,
+				5D1837E81BE574CC007F7A77 /* NSMutableArray+Enumeration.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,7 +509,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "artEverywhere-ios-0915/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ART.artEverywhere-ios-0915";
+				PRODUCT_BUNDLE_IDENTIFIER = ART.artEverywhere;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -517,7 +523,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "artEverywhere-ios-0915/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ART.artEverywhere-ios-0915";
+				PRODUCT_BUNDLE_IDENTIFIER = ART.artEverywhere;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};

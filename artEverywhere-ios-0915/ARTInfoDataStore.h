@@ -2,7 +2,7 @@
 //  ARTInfoDataStore.h
 //  artEverywhere-ios-0915
 //
-//  Created by Olivia Lim on 10/29/15.
+//  Created by Olivia Lim and Joel Bell on 10/29/15.
 //  Copyright © 2015 Olivia Lim. All rights reserved.
 //
 
@@ -18,7 +18,9 @@
 @property (strong, nonatomic) ARTInfo *artworkDetail;
 
 + (instancetype)sharedArtInfoDataStore;
-- (void)setupDistanceFromUserPropertyForArtwork:(ARTInfo *)art
-                                   withLocation:(CLLocation *)location;
+
+
+
+
 
 @end
