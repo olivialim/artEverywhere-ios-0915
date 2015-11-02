@@ -1,21 +1,21 @@
 //
-//  MapOverlay.m
+//  ARTMapOverlay.m
 //  art-everywhere-maps
 //
-//  Created by Joel Bell on 10/30/15.
-//  Copyright © 2015 Joel Bell. All rights reserved.
+//  Created by Olivia Lim and Joel Bell on 10/29/15.
+//  Copyright © 2015 Olivia Lim. All rights reserved.
 //
 
-#import "MapOverlay.h"
+#import "ARTMapOverlay.h"
 
 
-@interface MapOverlay ()
+@interface ARTMapOverlay ()
 
 @property (nonatomic) CLLocationCoordinate2D dimOverlayCoordinates;
 
 @end
 
-@implementation MapOverlay
+@implementation ARTMapOverlay
 
 -(id)initWithMapView:(MKMapView *)mapView {
     self = [super init];
@@ -31,11 +31,10 @@
     return self.dimOverlayCoordinates;
 }
 
-/**
- *  Return MKMapRectWorld in this method makes sure entire map view is covered with the dim overlay.
- *
- *  @return boundingMapRect - MKMapRectWorld for our dim overlay
- */
+// Return MKMapRectWorld in this method makes sure entire map view is covered with the dim overlay.
+//
+// @return boundingMapRect - MKMapRectWorld for our dim overlay
+
 -(MKMapRect)boundingMapRect {
     return MKMapRectWorld;
 }

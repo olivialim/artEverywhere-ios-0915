@@ -2,14 +2,15 @@
 //  ARTLocationListTableViewController.h
 //  artEverywhere-ios-0915
 //
-//  Created by Olivia Lim on 10/27/15.
+//  Created by Olivia Lim and Joel Bell on 10/29/15.
 //  Copyright © 2015 Olivia Lim. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import "ARTInfoDataStore.h"
 #import <CoreLocation/CoreLocation.h>
 #import <MapKit/MapKit.h>
+#import "ARTInfoDataStore.h"
+
 
 @interface ARTLocationListTableViewController : UITableViewController
 

@@ -1,15 +1,15 @@
 //
-//  MyCustomAnnotation.m
+//  ARTMapAnnotation.m
 //  art-everywhere-maps
 //
-//  Created by Joel Bell on 10/29/15.
-//  Copyright © 2015 Joel Bell. All rights reserved.
+//  Created by Olivia Lim and Joel Bell on 10/29/15.
+//  Copyright © 2015 Olivia Lim. All rights reserved.
 //
 
-#import "MyCustomAnnotation.h"
+#import "ARTMapAnnotation.h"
 
 
-@implementation MyCustomAnnotation
+@implementation ARTMapAnnotation
 
 -(id)initWithTitle:(NSString *)newTitle Location:(CLLocationCoordinate2D)location Proximity:(NSString *)number
 {
@@ -27,18 +27,19 @@
 -(MKAnnotationView *)annotationView
 {
     MKAnnotationView *annotationView = [[MKAnnotationView alloc] initWithAnnotation:self
-                                                                    reuseIdentifier:@"MyCustomAnnotation"];
+                                                                    reuseIdentifier:@"ARTMapAnnotation"];
     
     annotationView.enabled = YES;
     annotationView.canShowCallout = YES;
-    annotationView.image = [UIImage imageNamed:@"pinIconTest3"];
+    annotationView.image = [UIImage imageNamed:@"pinIcon"];
     annotationView.rightCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
     
-    UILabel *number = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 21, 19)];
 
+    
+    UILabel *number = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 20, 18)];
     number.textColor = [UIColor whiteColor];
     number.text = self.proximityNumber;
-    number.font = [UIFont fontWithName:@"HelveticaNeue-Bold" size:12];
+    number.font = [UIFont fontWithName:@"HelveticaNeue-Bold" size:11];
     number.textAlignment = NSTextAlignmentCenter;
     [annotationView addSubview:number];
 
