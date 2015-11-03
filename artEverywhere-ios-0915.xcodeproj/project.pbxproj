@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5D1837E81BE574CC007F7A77 /* NSMutableArray+Enumeration.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1837E71BE574CC007F7A77 /* NSMutableArray+Enumeration.m */; };
 		5D1837EA1BE5843F007F7A77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D1837E91BE5843F007F7A77 /* Assets.xcassets */; };
+		CB02FF581BE8FED000A93B12 /* ARTFullScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB02FF571BE8FED000A93B12 /* ARTFullScreenViewController.m */; };
 		CB106CD41BE1676E00FDBFCF /* ARTInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB106CD31BE1676E00FDBFCF /* ARTInfoViewController.m */; };
 		CBC1C0B51BE006E500931638 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC1C0B41BE006E500931638 /* main.m */; };
 		CBC1C0B81BE006E500931638 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC1C0B71BE006E500931638 /* AppDelegate.m */; };
@@ -54,6 +55,8 @@
 		5D1837E61BE574CC007F7A77 /* NSMutableArray+Enumeration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Enumeration.h"; sourceTree = "<group>"; };
 		5D1837E71BE574CC007F7A77 /* NSMutableArray+Enumeration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Enumeration.m"; sourceTree = "<group>"; };
 		5D1837E91BE5843F007F7A77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB02FF561BE8FED000A93B12 /* ARTFullScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARTFullScreenViewController.h; sourceTree = "<group>"; };
+		CB02FF571BE8FED000A93B12 /* ARTFullScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARTFullScreenViewController.m; sourceTree = "<group>"; };
 		CB106CD21BE1676E00FDBFCF /* ARTInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARTInfoViewController.h; sourceTree = "<group>"; };
 		CB106CD31BE1676E00FDBFCF /* ARTInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARTInfoViewController.m; sourceTree = "<group>"; };
 		CBC1C0B01BE006E500931638 /* artEverywhere-ios-0915.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "artEverywhere-ios-0915.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,10 +154,6 @@
 				CBEFB60C1BE27B0C009167FA /* ARTInfo.m */,
 				CBEFB60E1BE27B9F009167FA /* ARTInfoDataStore.h */,
 				CBEFB60F1BE27B9F009167FA /* ARTInfoDataStore.m */,
-				CBC1C0E61BE0086100931638 /* ARTLocationListTableViewController.h */,
-				CBC1C0E71BE0086100931638 /* ARTLocationListTableViewController.m */,
-				CB106CD21BE1676E00FDBFCF /* ARTInfoViewController.h */,
-				CB106CD31BE1676E00FDBFCF /* ARTInfoViewController.m */,
 				CBD0F8341BE3EC7E003A4B95 /* ARTMapAnnotation.h */,
 				CBD0F8351BE3EC7E003A4B95 /* ARTMapAnnotation.m */,
 				CBD0F8301BE3EC7E003A4B95 /* ARTMapOverlay.h */,
@@ -164,6 +163,12 @@
 				5D1837E61BE574CC007F7A77 /* NSMutableArray+Enumeration.h */,
 				5D1837E71BE574CC007F7A77 /* NSMutableArray+Enumeration.m */,
 				CBC1C0BC1BE006E500931638 /* Main.storyboard */,
+				CBC1C0E61BE0086100931638 /* ARTLocationListTableViewController.h */,
+				CBC1C0E71BE0086100931638 /* ARTLocationListTableViewController.m */,
+				CB106CD21BE1676E00FDBFCF /* ARTInfoViewController.h */,
+				CB106CD31BE1676E00FDBFCF /* ARTInfoViewController.m */,
+				CB02FF561BE8FED000A93B12 /* ARTFullScreenViewController.h */,
+				CB02FF571BE8FED000A93B12 /* ARTFullScreenViewController.m */,
 				5D1837E91BE5843F007F7A77 /* Assets.xcassets */,
 				CBC1C0B31BE006E500931638 /* Supporting Files */,
 				CBC1C0C11BE006E600931638 /* LaunchScreen.storyboard */,
@@ -359,6 +364,7 @@
 				CB106CD41BE1676E00FDBFCF /* ARTInfoViewController.m in Sources */,
 				CBC1C0B81BE006E500931638 /* AppDelegate.m in Sources */,
 				CBC1C0E81BE0086100931638 /* ARTLocationListTableViewController.m in Sources */,
+				CB02FF581BE8FED000A93B12 /* ARTFullScreenViewController.m in Sources */,
 				CBC1C0B51BE006E500931638 /* main.m in Sources */,
 				CBD0F8381BE3EC7E003A4B95 /* ARTMapAnnotation.m in Sources */,
 				CBEFB6101BE27B9F009167FA /* ARTInfoDataStore.m in Sources */,

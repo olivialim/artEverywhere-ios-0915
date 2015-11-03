@@ -8,14 +8,13 @@
 
 #import "ARTInfoViewController.h"
 #import "ARTLocationListTableViewController.h"
+#import "ARTFullScreenViewController.h"
 
 @interface ARTInfoViewController ()
 
 @property (weak, nonatomic) IBOutlet UILabel *titleYearLabel;
 @property (weak, nonatomic) IBOutlet UITextView *artDescription;
 @property (weak, nonatomic) IBOutlet UIView *superContentView;
-@property (weak, nonatomic) IBOutlet UIImageView *image1;
-@property (weak, nonatomic) IBOutlet UIImageView *image2;
 
 @end
 
@@ -44,14 +43,38 @@
     self.image1.image = self.artwork.image1;
     self.image2.image = self.artwork.image2;
 
-    
+}
 
+- (IBAction)image1Tapped:(id)sender {
+    [self performSegueWithIdentifier:@"imageTapped" sender:sender];
+
+}
+
+- (IBAction)image2Tapped:(id)sender {
+    [self performSegueWithIdentifier:@"imageTapped" sender:sender];
+    
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    
+    
+    if ([segue.identifier isEqualToString:@"imageTapped"]) {
+        
+        UITapGestureRecognizer *gestureRecognizer = sender;
+        UIImageView *tappedView = (UIImageView *)gestureRecognizer.view;
+        UIImage *imageFromTappedImageView = tappedView.image;
+        
+        ARTFullScreenViewController *fullScreenVC = segue.destinationViewController;
+        fullScreenVC.fullScreenImage = imageFromTappedImageView;
+
+        
+    }
+    
 }
 
 - (BOOL)prefersStatusBarHidden {
     return YES;
 }
-
 
 
 @end

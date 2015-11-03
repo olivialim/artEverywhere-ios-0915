@@ -14,5 +14,9 @@
 
 @property (strong, nonatomic) ARTInfo *artwork;
 @property (strong, nonatomic) ARTInfoDataStore *store;
+@property (weak, nonatomic) IBOutlet UIImageView *image1;
+@property (weak, nonatomic) IBOutlet UIImageView *image2;
+@property (strong, nonatomic) IBOutlet UITapGestureRecognizer *image1Tap;
+@property (strong, nonatomic) IBOutlet UITapGestureRecognizer *image2Tap;
 
 @end
