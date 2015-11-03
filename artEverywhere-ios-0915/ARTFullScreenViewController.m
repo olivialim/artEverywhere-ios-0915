@@ -20,19 +20,28 @@
 -(void)viewDidLoad {
     [super viewDidLoad];
     
+    self.view.backgroundColor = [UIColor colorWithWhite:0.0 alpha:0.75];
+
+
+//    self.modalPresentationStyle = UIModalPresentationFormSheet;
+    
+    self.fullSizeImage.contentMode = UIViewContentModeScaleAspectFill;
+    self.fullSizeImage.autoresizingMask =
+    ( UIViewAutoresizingFlexibleBottomMargin
+     | UIViewAutoresizingFlexibleHeight
+     | UIViewAutoresizingFlexibleLeftMargin
+     | UIViewAutoresizingFlexibleRightMargin
+     | UIViewAutoresizingFlexibleTopMargin
+     | UIViewAutoresizingFlexibleWidth );
+    
     self.fullSizeImage.image = self.fullScreenImage;
-    
-    
-    
+
 }
 
 - (IBAction)fullScreenTapped:(id)sender {
     
     [self dismissViewControllerAnimated:YES completion:nil];
 }
-
-
-
 
 -(BOOL)prefersStatusBarHidden {
     return YES;

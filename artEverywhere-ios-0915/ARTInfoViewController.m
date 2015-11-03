@@ -57,7 +57,6 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     
-    
     if ([segue.identifier isEqualToString:@"imageTapped"]) {
         
         UITapGestureRecognizer *gestureRecognizer = sender;
@@ -65,9 +64,10 @@
         UIImage *imageFromTappedImageView = tappedView.image;
         
         ARTFullScreenViewController *fullScreenVC = segue.destinationViewController;
-        fullScreenVC.fullScreenImage = imageFromTappedImageView;
 
-        
+        fullScreenVC.modalPresentationStyle = UIModalPresentationOverFullScreen;
+
+        fullScreenVC.fullScreenImage = imageFromTappedImageView;
     }
     
 }

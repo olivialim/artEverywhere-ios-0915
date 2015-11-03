@@ -161,11 +161,11 @@
                                                 <rect key="frame" x="8" y="388" width="398" height="560"/>
                                                 <animations/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <mutableString key="text">On December 15, 1989, the Dow Jones closed at 2739.55, 51 points behind its 1989 high. But Arturo Di Modica, a Soho-based sculptor, was feeling bullish. The previous evening he had visited Broad Street in Lower Manhattan, carefully timing the police patrols around the New York Stock Exchange. He determined that he would have a 4 1/2 minute window to deliver the largest Christmas gift the City of New York ever received: a three-and-a-half-ton, 18-foot-long, bronze “Charging Bull.” Di Modica created this piece of guerrilla art at his Crosby Street studio, ultimately spending more than two years and $350,000 to create, transport and place it under the Christmas tree in front of the exchange.
+                                                <string key="text">On December 15, 1989, the Dow Jones closed at 2739.55, 51 points behind its 1989 high. But Arturo Di Modica, a Soho-based sculptor, was feeling bullish. The previous evening he had visited Broad Street in Lower Manhattan, carefully timing the police patrols around the New York Stock Exchange. He determined that he would have a 4 1/2 minute window to deliver the largest Christmas gift the City of New York ever received: a three-and-a-half-ton, 18-foot-long, bronze “Charging Bull.” Di Modica created this piece of guerrilla art at his Crosby Street studio, ultimately spending more than two years and $350,000 to create, transport and place it under the Christmas tree in front of the exchange.
 
 Di Modica was inspired by New York’s fighting spirit in the wake of the 1987 stock market crash. From the start, “Charging Bull” seemed possessed of the same spirit. Although “it was love right away” with New Yorkers, as Di Modica observed that night, the following morning the stock exchange, itself, was less enamored. In fact, all it wanted to do was return the gift. It unsuccessfully sought to make the police do it, and then secured a private contractor to cart it to a Queens impound lot. According to the New York Times, by day’s end, the Dow Jones was off another 14.08 points. Wall Street analysts were blaming “obscure economic forces,” but New Yorkers, upset about the departure of the bull, recognized a real leading economic indicator when they saw one. Parks Commissioner Henry Stern, Mayor Ed Koch and activist Arturo Piccolo of the Bowling Green Association found a home for “Charging Bull” at Bowling Green within a few days. 
 
-Officially, its status is still under siege. The bull is on loan to the city from Di Modica, a circumstance that normally limits its display to only one year. It has only a temporary permit to stand at the Bowling Green location, which the City indicated would not be permanent. DiModica has offered it for sale to anyone willing to keep it in its current location, but so far, no takers. </mutableString>
+Officially, its status is still under siege. The bull is on loan to the city from Di Modica, a circumstance that normally limits its display to only one year. It has only a temporary permit to stand at the Bowling Green location, which the City indicated would not be permanent. DiModica has offered it for sale to anyone willing to keep it in its current location, but so far, no takers. </string>
                                                 <fontDescription key="fontDescription" name="PrintBold" family="Print Bold" pointSize="24"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
@@ -245,7 +245,7 @@ Officially, its status is still under siege. The bull is on loan to the city fro
                         <viewControllerLayoutGuide type="top" id="xP1-TL-1wN"/>
                         <viewControllerLayoutGuide type="bottom" id="L2y-De-nhQ"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Txz-Dl-nxh">
+                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Txz-Dl-nxh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -253,7 +253,7 @@ Officially, its status is still under siege. The bull is on loan to the city fro
                                 <rect key="frame" x="20" y="216" width="374" height="303"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
                         <accessibility key="accessibilityConfiguration" identifier="hello"/>
                         <gestureRecognizers/>
                         <constraints>
